@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Hero Project</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Contrail One">
+  </head>
+  <body>
+    <div id="screen">
+      <div id="header">
+        <div class="hp-block hero-hp-block">
+          <div class="hp-bar">
+            <div id="hero-hp-hurt"></div>
+          </div>
+          <div class="hp-text">
+            <span id="hero-hp">130</span>
+            /
+            <span id="hero-max-hp">130</span>
+          </div>
+        </div>
+        <div id="round-num">10</div>
+        <div class="hp-block monster-hp-block">
+          <div class="hp-bar">
+            <div id="monster-hp-hurt"></div>
+          </div>
+          <div class="hp-text">
+            <span id="monster-hp">130</span>
+            /
+            <span id="monster-max-hp">130</span>
+          </div>
+        </div>
+      </div>
+      <div id="plane">
+        <div id="hero-image-block">
+          <div class="skill-block">
+            <img src="images/skill.png" alt="Skill" id="skill" class="skill-image">
+            <img src="images/heal.png" alt="Heal" id="heal" class="skill-image">
+          </div>
+          <div class="character-block">
+            <img src="images/hero.png" alt="Hero Image" class="character-image hero-image">
+            <img src="images/effect/blade/1.png" alt="Effect" class="attack-effect-image" style="display: none;">
+            <img src="images/effect/blade/2.png" alt="Effect" class="attack-effect-image" style="display: none;">
+            <img src="images/effect/blade/3.png" alt="Effect" class="attack-effect-image" style="display: none;">
+            <img src="images/effect/blade/4.png" alt="Effect" class="attack-effect-image" style="display: none;">
+            <img src="images/effect/blade/5.png" alt="Effect" class="attack-effect-image" style="display: none;">
+            <img src="images/effect/blade/6.png" alt="Effect" class="attack-effect-image" style="display: none;">
+            <img src="images/effect/blade/7.png" alt="Effect" class="attack-effect-image" style="display: none;">
+            <img src="images/effect/blade/8.png" alt="Effect" class="attack-effect-image" style="display: none;">
+            <img src="images/effect/heal/1.png" alt="Effect" class="heal-effect-image" style="display: none;">
+            <img src="images/effect/heal/2.png" alt="Effect" class="heal-effect-image" style="display: none;">
+            <img src="images/effect/heal/3.png" alt="Effect" class="heal-effect-image" style="display: none;">
+            <img src="images/effect/heal/4.png" alt="Effect" class="heal-effect-image" style="display: none;">
+            <img src="images/effect/heal/5.png" alt="Effect" class="heal-effect-image" style="display: none;">
+            <img src="images/effect/heal/6.png" alt="Effect" class="heal-effect-image" style="display: none;">
+            <img src="images/effect/heal/7.png" alt="Effect" class="heal-effect-image" style="display: none;">
+            <img src="images/effect/heal/8.png" alt="Effect" class="heal-effect-image" style="display: none;">
+            <span class="hurt-text"></span>
+            <span class="heal-text"></span>
+          </div>
+        </div>
+        <div id="monster-image-block">
+          <div class="character-block">
+            <img src="images/monster.png" alt="Monster Image" class="character-image monster-image">
+            <img src="images/effect/blade/1.png" alt="Effect" class="attack-effect-image" style="display: none;">
+            <img src="images/effect/blade/2.png" alt="Effect" class="attack-effect-image" style="display: none;">
+            <img src="images/effect/blade/3.png" alt="Effect" class="attack-effect-image" style="display: none;">
+            <img src="images/effect/blade/4.png" alt="Effect" class="attack-effect-image" style="display: none;">
+            <img src="images/effect/blade/5.png" alt="Effect" class="attack-effect-image" style="display: none;">
+            <img src="images/effect/blade/6.png" alt="Effect" class="attack-effect-image" style="display: none;">
+            <img src="images/effect/blade/7.png" alt="Effect" class="attack-effect-image" style="display: none;">
+            <img src="images/effect/blade/8.png" alt="Effect" class="attack-effect-image" style="display: none;">
+            <span class="hurt-text"></span>
+          </div>
+        </div>
+        <div id="dialog">
+          <div class="win-dialog">
+            <h2> 獲得勝利！ </h2>
+            <button onclick="location.reload();"> 再玩一次？ </button>
+          </div>
+          <div class="lose-dialog">
+            <h2> 你輸掉了！ </h2>
+            <button onclick="location.reload();"> 再次挑戰？ </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/index.js"></script>
+  </body>
+</html>
